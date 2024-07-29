@@ -13,3 +13,12 @@
     3	"Odd"
     4	"Even"
 */
+
+const solution = (num) => {
+    if (num % 2 === 0) {
+        return "Even";
+      } else {
+        return "Odd";
+      }
+}
+
